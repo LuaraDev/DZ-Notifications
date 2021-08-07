@@ -1,0 +1,69 @@
+@font-face {
+    font-family: test;
+    src: url(fonts/almoni-regular-aaa.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-wrap {
+    display: block;
+    margin-left: 70%;
+    color: white;
+    padding: 1px;
+}
+
+
+
+body {
+    margin: 5.3vh;
+    background-color: transparent !important;
+    font-family: test;
+}
+
+.container {
+    height: 99%;
+    overflow: hidden;
+    position: relative;
+    max-height: 150px;
+    max-width: 35%;
+    float: right;
+}
+
+
+
+.container-desc {
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0.8vh;
+    width: fit-content;
+    border-radius: 1.2vh;
+    margin: 0.9vh;
+    margin-top: 0.9%;
+    font: caption;
+    font-weight: bold;
+    float: right;
+    color:#E6E6E5;
+    background-color: rgba(38, 128, 207, 0.85);
+}
+
+.error {
+    color:#E6E6E5;
+    background-color: rgba(207, 38, 38, 0.85);
+}
+
+.success {
+    color:#ffffff;
+    background-color: rgba(38, 207, 108, 0.85);
+}
+
+.text {
+    margin-left: 0.3vh;
+    margin-right: 0.3vh;
+    font-size: 0.78vw;
+    font-family: test;
+}
