@@ -1,13 +1,13 @@
 DZ Notifications:
 Thanks for choosing `Development-Zone`!
 
-**Trigger Event** - ("dz-notify:client:notify")
-- Arguments:
-1 - Error
+**Trigger Event** - ("dz-notify:client:notify", text, type)
 
-2 - Information
 
-3 - Success
+- Types:
+- 1 - Error
+- 2 - Information
+- 3 - Success
 
 
 Example - TriggerEvent("dz-notify:client:notify", "Action failed.", 1)
