@@ -2,7 +2,7 @@ DZ Notifications:
 Thanks for choosing `Development-Zone`!
 
 **Trigger Event** - ("dz-notify:client:notify")
-- Arguments:
+Arguments:
 - 1 - Error
 - 2 - Information
 - 3 - Success
@@ -16,4 +16,6 @@ Features:
 - Responsive UI.
 
 ©️ All rights reserved - [https://dz-security.live/].
+Discord Invite - https://discord.com/invite/fqPHVnP5w7
+
 ![image](https://user-images.githubusercontent.com/81599998/128612402-f1d775c7-1de7-43b4-b4c3-edf424443016.png)
